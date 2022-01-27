@@ -1,9 +1,10 @@
 import React from "react";
 import logo from "../img/logo.png";
+import Button from "../component/button/button";
 
 const Navbar = () => {
     return (
-        <nav class="navbar navbar-expand-lg ">
+        <nav class="navbar navbar-expand-lg sticky-top">
             <div class="container">
                 <a class="navbar-brand" href="  ">
                     <img
@@ -31,7 +32,7 @@ const Navbar = () => {
                     class="collapse navbar-collapse justify-content-end text-center"
                     id="navbarNav"
                 >
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav align-items-center">
                         <li class="nav-item">
                             <a class="nav-link " aria-current="page" href="  ">
                                 Home
@@ -39,27 +40,27 @@ const Navbar = () => {
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="  ">
-                                Features
+                                About
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="  ">
-                                Pricing
+                                Services
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="  ">
-                                Pricing
+                                Product
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="  ">
-                                Pricing
+                                Contact
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="  ">
-                                Pricing
+                        <li class="nav-item fw-bold">
+                            <a class="" href=" ">
+                                <Button />
                             </a>
                         </li>
                     </ul>
