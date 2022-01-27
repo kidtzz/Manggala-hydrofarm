@@ -35,4 +35,18 @@
         <noscript>Mulai dibuat tanggal 26 januari 2022 jam 17:07</noscript>
         <div id="root"></div>
     </body>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var navbar = $(".header-inner");
+            $(window).scroll(function () {
+                if ($(window).scrollTop() <= 40) {
+                    navbar.removeClass("navbar-scroll");
+                } else {
+                    navbar.addClass("navbar-scroll");
+                }
+            });
+        });
+    </script>
 </html>
