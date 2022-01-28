@@ -5,7 +5,7 @@ const Footer = () => {
         <section className="py-5 pb-0 footer bg-grey">
             <div className="container-fluid px-5 my-5 ">
                 <div className="row gx-5 justify-content-center">
-                    <div className="col-lg-4 mb-5 mb-lg-0">
+                    <div className="col-lg-4 col-md-4 col-xl-4 mb-5 mb-lg-0">
                         <h6 className=" mb-4 font-weight-bold">About us</h6>
                         <p className="text-secondary">
                             Lorem ipsum dolor sit amet consectetur adipisicing
@@ -15,7 +15,7 @@ const Footer = () => {
                             pariatur iusto ipsam. Sequi, quia!
                         </p>
                     </div>
-                    <div className="col-lg-3 mb-5 mb-lg-0">
+                    <div className="col-lg-3 col-md-3 col-xl-3  mb-5 mb-lg-0">
                         <h6 className=" mb-4 font-weight-bold">Contact</h6>
                         <div className="footer-link d-block text-secondary ">
                             <p>
@@ -36,7 +36,7 @@ const Footer = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="col-lg-2 mb-5 mb-lg-0">
+                    <div className="col-lg-2 col-md-2 col-xl-2  mb-5 mb-lg-0">
                         <h6 className="  mb-4 font-weight-bold">
                             Learn & Support
                         </h6>
@@ -45,7 +45,7 @@ const Footer = () => {
                             <li>lorem</li>
                         </div>
                     </div>
-                    <div className="col-lg-2 mb-5 mb-lg-0">
+                    <div className="col-lg-2 col-md-2 col-xl-2  mb-5 mb-lg-0">
                         <h6 className=" mb-4 font-weight-bold">Follow Us</h6>
                         <a
                             class="btn btn-primary btn-floating m-1"
