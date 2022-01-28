@@ -4,14 +4,17 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import Navbar from "../src/component/Navbar";
 import Content from "./component/Content";
 import Footer from "./component/Footer";
+import ContentTB from "./component/ContentTB";
 
 function App() {
     return (
         <div>
             <Navbar />
+            <ContentTB />
             <Content />
+            <ContentTB />
             <Content />
-            <Content />
+            <ContentTB />
             <Footer />
         </div>
     );

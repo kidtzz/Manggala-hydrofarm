@@ -1,12 +1,36 @@
 import React from "react";
 import "../css/button.css";
 
-const button = () => {
+export const button1 = () => {
     return (
-        <div class="main_div fw-bold">
+        <div className="main_div fw-bold">
             <button>Follow US</button>
         </div>
     );
 };
 
-export default button;
+export const button2 = () => {
+    return (
+        <div>
+            <a className="fancy " href=" ">
+                <span className="top-key"></span>
+                <span className="text">buy now</span>
+                <span className="bottom-key-1"></span>
+                <span className="bottom-key-2"></span>
+            </a>
+        </div>
+    );
+};
+
+export const button3 = () => {
+    return (
+        <div>
+            <a className="fancy2 " href=" ">
+                <span className="top-key"></span>
+                <span className="text">shope </span>
+                <span className="bottom-key-1"></span>
+                <span className="bottom-key-2"></span>
+            </a>
+        </div>
+    );
+};

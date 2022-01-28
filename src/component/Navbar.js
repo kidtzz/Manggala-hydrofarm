@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../img/logo.png";
-import Button from "../component/button/button";
+import { button1 } from "../component/button/button";
 
 const Navbar = () => {
     return (
@@ -65,7 +65,7 @@ const Navbar = () => {
                             </li>
                             <li class="nav-item fw-bold">
                                 <a class="" href=" ">
-                                    <Button />
+                                    {button1()}
                                 </a>
                             </li>
                         </ul>

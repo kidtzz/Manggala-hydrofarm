@@ -1,7 +1,9 @@
 /* From cssbuttons.io by @SanketSuryawanshi */
 :root {
     --yellow: #fee500;
+    --cob: rgba(114, 155, 16, 1);
 }
+/* Button1 */
 
 .main_div {
     --color: var(--yellow);
@@ -21,7 +23,7 @@
     border-top: 2px solid var(--color);
     border-left: 2px solid var(--color);
     transition: 0.5s;
-    border-top-left-radius: 15px;
+    border-top-left-radius: 10px;
 }
 
 .main_div::after {
@@ -36,7 +38,7 @@
     border-right: 2px solid var(--color);
     border-bottom: 2px solid var(--color);
     transition: 0.5s;
-    border-bottom-right-radius: 15px;
+    border-bottom-right-radius: 10px;
 }
 
 .main_div:hover::before {
@@ -51,7 +53,7 @@
 
 .main_div button {
     padding: 10px 20px;
-    border-radius: 15px;
+    border-radius: 10px;
     font-size: 16px;
     background: rgb(27, 107, 15);
     background: linear-gradient(
@@ -65,13 +67,132 @@
     border: none;
     cursor: pointer;
     font-family: inherit;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    -ms-border-radius: 15px;
-    -o-border-radius: 15px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 .main_div button:hover {
     box-shadow: 0px 0.3px 1.6px rgba(0, 0, 0, 0.057),
         0px 0.9px 4.5px rgba(0, 0, 0, 0.089),
         0px 2.1px 10.9px rgba(0, 0, 0, 0.138), 0px 7px 36px rgba(0, 0, 0, 0.2);
+}
+
+/* BUTTON2 */
+
+/* From cssbuttons.io */
+.fancy {
+    background: rgb(27, 107, 15);
+    background: linear-gradient(
+        90deg,
+        rgba(27, 107, 15, 0.9724264705882353) 22%,
+        rgba(77, 135, 15, 1) 56%,
+        rgba(114, 155, 16, 1) 83%,
+        rgba(144, 193, 27, 1) 99%
+    );
+    border: 2px solid #fff;
+    border-radius: 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding: 1.15em 2em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    transition: all 0.3s ease-in-out;
+    user-select: none;
+    font-size: 13px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.fancy::before {
+    content: " ";
+    width: 0.9375rem;
+    height: 2px;
+    background: #fff;
+    top: 50%;
+    right: 1.5em;
+    position: absolute;
+    transform: translateY(-50%);
+    transform-origin: center;
+    transition: background 0.3s linear, width 0.3s linear;
+}
+
+.fancy .text {
+    font-size: 1.125em;
+    line-height: 1.33333em;
+    padding-right: 1.1em;
+    display: block;
+    text-align: left;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+}
+
+.fancy .top-key {
+    height: 2px;
+    width: 0px;
+    top: -2px;
+    left: 0.625rem;
+    position: absolute;
+    background: #e8e8e8;
+    transition: width 0.5s ease-out, left 0.3s ease-out;
+}
+
+.fancy .bottom-key-1 {
+    height: 2px;
+    width: 0;
+    right: 1.875rem;
+    bottom: -2px;
+    position: absolute;
+    background: #e8e8e8;
+    transition: width 0.5s ease-out, right 0.3s ease-out;
+}
+
+.fancy .bottom-key-2 {
+    height: 2px;
+    width: 0;
+    right: 0.625rem;
+    bottom: -2px;
+    position: absolute;
+    background: #e8e8e8;
+    transition: width 0.5s ease-out, right 0.3s ease-out;
+}
+
+.fancy:hover {
+    color: white;
+    background: transparent;
+    border: 2px solid var(--cob);
+}
+
+.fancy:hover::before {
+    width: 1.2625rem;
+    background: black;
+}
+
+.fancy:hover .text {
+    color: black;
+    padding-right: 2em;
+}
+
+.fancy:hover .top-key {
+    width: 2.725rem;
+}
+.fancy:hover .bottom-key-1 {
+    width: 1.5625rem;
+}
+.fancy:hover .bottom-key-2 {
+    width: 0.625rem;
 }
