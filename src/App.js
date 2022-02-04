@@ -8,7 +8,7 @@ import ContentTB from "./component/ContentTB";
 
 function App() {
     return (
-        <div>
+        <div className="App">
             <Navbar />
             <ContentTB />
             <Content />

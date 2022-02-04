@@ -3,17 +3,47 @@ import React from "react";
 const Content = () => {
     return (
         <section className="py-5 bg-content2">
-            <div className="container px-5 my-5 justify-content-center">
-                <div className="row gx-5 justify-content-center align-items-center">
-                    <h2>Kenapa Memilih Manggala Hydrofarm?</h2>
-                    <div className="col-lg-4 col-xl-4 col-md-4 mb-5 mb-lg-0">
-                        <h2>_</h2>
+            <div className="container-fluid py-5 border text-center">
+                <h2 className="mb-4">Kenapa Memilih Manggala Hydrofarm?</h2>
+                <div className=" row d-flex justify-content-center">
+                    <div className="card px-0 m-2 p-3 ">
+                        <img src=" " className="d-block w-100" alt="..."></img>
+                        <div className="card-body">
+                            <h5 className="card-title fw-bold">
+                                Pengecekan Kesehatan Masyarakat
+                            </h5>
+                            <p className="card-text">
+                                Layanan kesehatan ini dilaksanakan seminggu
+                                sekali, dengan tujuan agar lingkungan masyarakat
+                                yang sehat dan aman dari penyakit
+                            </p>
+                        </div>
                     </div>
-                    <div className="col-lg-4 col-lg-4 col-xl-4 col-md-4 mb-5 mb-lg-0">
-                        <h2>_</h2>
+                    <div className="card px-0  m-2 p-3 ">
+                        <img src=" " className="d-block w-100" alt="..."></img>
+                        <div className="card-body">
+                            <h5 className="card-title fw-bold">
+                                Pengecekan Kesehatan Masyarakat
+                            </h5>
+                            <p className="card-text">
+                                Layanan kesehatan ini dilaksanakan seminggu
+                                sekali, dengan tujuan agar lingkungan masyarakat
+                                yang sehat dan aman dari penyakit
+                            </p>
+                        </div>
                     </div>
-                    <div className="col-lg-4 mb-5 col-lg-4 col-xl-4 col-md-4 mb-lg-0">
-                        <h2>""</h2>
+                    <div className="card px-0  m-2 p-3 ">
+                        <img src=" " className="d-block w-100" alt="..."></img>
+                        <div className="card-body">
+                            <h5 className="card-title fw-bold">
+                                Pengecekan Kesehatan Masyarakat
+                            </h5>
+                            <p className="card-text">
+                                Layanan kesehatan ini dilaksanakan seminggu
+                                sekali, dengan tujuan agar lingkungan masyarakat
+                                yang sehat dan aman dari penyakit
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
