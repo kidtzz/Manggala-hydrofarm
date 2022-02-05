@@ -1,24 +1,26 @@
-.bg-content2 .card {
-    border: none;
+.bg-content2 {
+    .card {
+        border: none;
 
-    height: 41vh;
-    width: 20rem;
-    transition: 0.5s transform;
-    -webkit-transition: 0.5s transform;
-    -moz-transition: 0.5s transform;
-    -ms-transition: 0.5s transform;
-    -o-transition: 0.5s transform;
-}
+        height: 41vh;
+        width: 20rem;
+        transition: 0.5s transform;
+        -webkit-transition: 0.5s transform;
+        -moz-transition: 0.5s transform;
+        -ms-transition: 0.5s transform;
+        -o-transition: 0.5s transform;
+    }
+    .card:hover {
+        background: #fff;
+        box-shadow: 0px 0px 2.4px rgba(0, 0, 0, 0.024),
+            0px 0px 6.8px rgba(0, 0, 0, 0.035),
+            0px 0px 16.3px rgba(0, 0, 0, 0.046),
+            0px 0px 54px rgba(0, 0, 0, 0.07);
 
-.bg-content2 .card:hover {
-    background: #fff;
-    box-shadow: 0px 0px 2.4px rgba(0, 0, 0, 0.024),
-        0px 0px 6.8px rgba(0, 0, 0, 0.035), 0px 0px 16.3px rgba(0, 0, 0, 0.046),
-        0px 0px 54px rgba(0, 0, 0, 0.07);
-
-    transform: scale(1.02);
-    -webkit-transform: scale(1.02);
-    -moz-transform: scale(1.02);
-    -ms-transform: scale(1.02);
-    -o-transform: scale(1.02);
+        transform: scale(1.02);
+        -webkit-transform: scale(1.02);
+        -moz-transform: scale(1.02);
+        -ms-transform: scale(1.02);
+        -o-transform: scale(1.02);
+    }
 }
