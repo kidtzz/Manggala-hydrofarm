@@ -1,0 +1,42 @@
+/* * FOOTER */
+
+.footer p {
+    font-size: 15px;
+    text-align: justify;
+}
+.footer .copyright {
+    font-size: 13px;
+    text-decoration: none;
+}
+.footer .copyright .border-footer {
+    width: 100%;
+    margin-top: 20px;
+    height: 5px;
+    background: rgb(27, 107, 15);
+    background: linear-gradient(
+        90deg,
+        rgba(27, 107, 15, 0.9724264705882353) 22%,
+        rgba(77, 135, 15, 1) 56%,
+        rgba(114, 155, 16, 1) 83%,
+        rgba(144, 193, 27, 1) 99%
+    );
+}
+.footer .btn-instagram {
+    color: #fff;
+    background-color: var(--ig);
+    border-color: var(--ig);
+}
+.footer .btn-instagram:hover {
+    color: #fff;
+    background-color: #8f248f;
+}
+
+.footer .btn-web {
+    color: #fff;
+    background-color: var(--web);
+    border-color: var(--web);
+}
+.footer .btn-web:hover {
+    color: white;
+    background-color: #ac4133;
+}

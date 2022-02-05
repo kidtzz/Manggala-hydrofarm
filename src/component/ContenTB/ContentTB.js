@@ -1,8 +1,9 @@
 import React, { useEffect } from "react";
-import { button2 } from "../component/button/button";
-import pp from "../img/pp.png";
+import { button2 } from "../Button/Button";
+import pp from "../../img/pp.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import "./ContentTB.css";
 
 const ContentTB = () => {
     useEffect(() => {
@@ -48,7 +49,7 @@ const ContentTB = () => {
                                 >
                                     <a href=" " className="readme">
                                         {" "}
-                                        Read Me
+                                        Read More
                                     </a>
                                 </div>
                             </div>
