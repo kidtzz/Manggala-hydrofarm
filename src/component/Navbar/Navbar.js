@@ -1,5 +1,5 @@
 import React from "react";
-import "./Navbar.css";
+import "./Navbar.scss";
 import { MenuItems } from "./MenuItems";
 import logo from "../../img/logo.png";
 import { button1 } from "../Button/Button";

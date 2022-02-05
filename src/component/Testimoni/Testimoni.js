@@ -1,7 +1,7 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import "./Testimoni.css";
+import "./Testimoni.scss";
 
 const Testimoni = () => {
     const responsive = {

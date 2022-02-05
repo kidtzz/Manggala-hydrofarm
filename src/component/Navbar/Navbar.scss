@@ -47,7 +47,16 @@
 
 @media only screen and (max-width: 992px) {
     body {
-        font-size: 10px;
+        font-size: 12px;
+    }
+    .navbar {
+        .navbar-toggler:focus,
+        .navbar-toggler:active,
+        .navbar-toggler-icon:focus {
+            outline: none;
+            box-shadow: none;
+            border: none;
+        }
     }
     .header-inner {
         background-color: white !important;
@@ -81,14 +90,13 @@
     z-index: 99;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
     transition-duration: 0.4s;
-}
-
-.navbar-scroll .nav-item .nav-link {
-    color: black;
-}
-.navbar-scroll .nav-item .nav-link:hover {
-    color: black;
-}
-.navbar .header-button {
-    margin-bottom: 20px;
+    .nav-item .nav-link {
+        color: black;
+    }
+    .nav-item .nav-link:hover {
+        color: black;
+    }
+    .navbar .header-button {
+        margin-bottom: 20px;
+    }
 }

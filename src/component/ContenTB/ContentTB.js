@@ -3,7 +3,7 @@ import { button2 } from "../Button/Button";
 import pp from "../../img/pp.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import "./ContentTB.css";
+import "./ContentTB.scss";
 
 const ContentTB = () => {
     useEffect(() => {
