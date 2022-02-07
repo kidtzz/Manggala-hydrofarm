@@ -2,6 +2,7 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import "./Testimoni.scss";
+import { ListTestimoni } from "./ListTestimoni";
 
 const Testimoni = () => {
     const responsive = {
@@ -38,42 +39,23 @@ const Testimoni = () => {
                 dotListClass="custom-dot-list-style"
                 itemClass="carousel-item-padding-40-px"
             >
-                <div className="card px-0 m-2 p-3 ">
-                    <img src=" " className="d-block w-100" alt="..."></img>
-                    <div className="card-body">
-                        <h5 className="card-title fw-bold">Pengecekan</h5>
-                        <p className="card-text">
-                            Layanan kesehatan ini dilaksanakan seminggu sekali,
-                        </p>
-                    </div>
-                </div>
-                <div className="card px-0 m-2 p-3 ">
-                    <img src=" " className="d-block w-100" alt="..."></img>
-                    <div className="card-body">
-                        <h5 className="card-title fw-bold">Pengedad12cekan</h5>
-                        <p className="card-text">
-                            Layanan kesehatan ini dilaksanakan seminggu sekali,
-                        </p>
-                    </div>
-                </div>
-                <div className="card px-0  m-2 p-3 ">
-                    <img src=" " className="d-block w-100" alt="..."></img>
-                    <div className="card-body">
-                        <h5 className="card-title fw-bold">Peasdekan</h5>
-                        <p className="card-text">
-                            Layanan kesehatan ini dilaksanakan seminggu sekali,
-                        </p>
-                    </div>
-                </div>
-                <div className="card px-0  m-2 p-3 ">
-                    <img src=" " className="d-block w-100" alt="..."></img>
-                    <div className="card-body">
-                        <h5 className="card-title fw-bold">Pasdaekan</h5>
-                        <p className="card-text">
-                            Layanan kesehatan ini dilaksanakan seminggu sekali,
-                        </p>
-                    </div>
-                </div>
+                {ListTestimoni.map((isi, index) => {
+                    return (
+                        <div className="card px-0 m-2 p-3 " key={index}>
+                            <img
+                                src={isi.img}
+                                className=" w-100 img-fluid"
+                                alt="..."
+                            />
+                            <div className="card-body">
+                                <h5 className="card-title fw-bold">
+                                    {isi.title}
+                                </h5>
+                                <p className="card-text">{isi.CardText}</p>
+                            </div>
+                        </div>
+                    );
+                })}
             </Carousel>
         </div>
     );
