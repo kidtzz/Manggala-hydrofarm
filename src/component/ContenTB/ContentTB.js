@@ -15,7 +15,7 @@ const ContentTB = () => {
     return (
         <section className="py-5 content-TB mt-4">
             <div className="container-fluid px-5 my-5 justify-content-center align-items-center">
-                <div className="row gx-5">
+                <div className="row ">
                     <div className="col-lg-5 mb-5 mb-lg-0 col-md-5 col-xl-5 mx-auto">
                         <div className=" d-block">
                             <div className="info-bg">
@@ -53,10 +53,10 @@ const ContentTB = () => {
                         </div>
                     </div>
                     <div
-                        className="col-lg-7 mb-5 mb-lg-0 col-md-7 col-xl-7 px-0 image"
+                        className="col-lg-7 mb-5 mb-lg-0 col-md-7 col-xl-7  image"
                         data-aos="zoom-in-up"
                     >
-                        <img className="mx-auto img-fluid" src={pp} alt="" />
+                        <img className=" img-fluid" src={pp} alt="" />
                     </div>
                 </div>
             </div>

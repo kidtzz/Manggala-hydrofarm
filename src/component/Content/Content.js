@@ -9,17 +9,17 @@ const Content = () => {
         {
             icon: [icon1],
             title: "Terpercaya 100%",
-            text: "adfhakhf",
+            text: "Tempatnya sayuran segar hidroponik 100% terpercaya ",
         },
         {
             icon: [icon2],
             title: "Non Pestisida",
-            text: "asdj",
+            text: "Menghasilkan tumbuhan yang segar, enak dan menyehatkan",
         },
         {
             icon: [icon3],
             title: "Kualitas Pelayanan",
-            text: "asdj",
+            text: "Pelayanan Termudah, tercepat, dan terpercaya ",
         },
     ];
     return (
