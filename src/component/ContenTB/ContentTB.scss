@@ -4,9 +4,7 @@
             color: black;
             text-decoration: none;
         }
-        .button a:hover {
-            color: rgb(62, 110, 13);
-        }
+
         .readme {
             margin-bottom: -20px;
         }
@@ -16,7 +14,12 @@
             width: 0px;
             height: 3px;
             margin-top: 20px;
-            background: var(--yellow);
+            background: rgb(62, 110, 13);
+            background: linear-gradient(
+                142deg,
+                rgba(62, 110, 13, 1) 35%,
+                rgba(32, 167, 20, 1) 93%
+            );
             transition: 0.4s;
             -webkit-transition: 0.4s;
             -moz-transition: 0.4s;

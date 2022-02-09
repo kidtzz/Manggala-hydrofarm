@@ -16,7 +16,7 @@
 }
 
 .navbar-scroll {
-    background-color: #ffffff;
+    background-color: hsla(0, 0%, 100%, 0.95);
     padding: 0;
     position: fixed;
     top: 0;
@@ -41,10 +41,8 @@
     display: flex;
     list-style: none;
 }
-
 .menu-items {
     position: relative;
-    font-size: 14px;
     justify-content: center;
     align-items: center;
 }
@@ -61,7 +59,7 @@
 .menu-items a,
 .menu-items button {
     text-align: left;
-    padding: 0.9rem 1rem;
+    padding: 0.7rem 1rem;
 }
 
 .arrow::after {
@@ -80,7 +78,6 @@
     position: absolute;
     box-shadow: 0 10px 15px -3px rgba(46, 41, 51, 0.08),
         0 4px 6px -2px rgba(71, 63, 79, 0.16);
-    font-size: 0.875rem;
     z-index: 9999;
     min-width: 10rem;
     padding: 0.5rem 2px;
@@ -109,7 +106,7 @@
         width: 0px;
         height: 3px;
         margin-top: 10px;
-        background: var(--yellow);
+        background: rgb(62, 110, 13);
         transition: 0.4s;
         -webkit-transition: 0.4s;
         -moz-transition: 0.4s;

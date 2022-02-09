@@ -29,10 +29,7 @@ const ContentTB = () => {
                                 Modern Agriculture Lorem Ipsum Dolor Sit amet
                                 consectetur
                             </p>
-                            <p
-                                data-aos="fade-up"
-                                data-aos-anchor-placement="center-center"
-                            >
+                            <p data-aos="flip-right">
                                 Lorem ipsum dolor sit amet consectetur,
                                 adipisicing elit. Lorem ipsum dolor
                             </p>

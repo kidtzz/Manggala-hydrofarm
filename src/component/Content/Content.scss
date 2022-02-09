@@ -1,15 +1,17 @@
-.bg-content2 {
+.choose-US {
     .card {
         border: none;
-
         height: 41vh;
         width: 20rem;
+        justify-content: center;
+        align-items: center;
         transition: 0.5s transform;
         -webkit-transition: 0.5s transform;
         -moz-transition: 0.5s transform;
         -ms-transition: 0.5s transform;
         -o-transition: 0.5s transform;
     }
+
     .card:hover {
         background: #fff;
         box-shadow: 0px 0px 2.4px rgba(0, 0, 0, 0.024),

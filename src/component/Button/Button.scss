@@ -1,7 +1,7 @@
 /* From cssbuttons.io by @SanketSuryawanshi */
 :root {
-    --yellow: #fee500;
-    --cob: rgba(114, 155, 16, 1);
+    --yellow: #729b10;
+    --cob: #729b10;
 }
 /* Button1 */
 
@@ -72,9 +72,8 @@
     -o-border-radius: 10px;
 }
 .main_div button:hover {
-    box-shadow: 0px 0.3px 1.6px rgba(0, 0, 0, 0.057),
-        0px 0.9px 4.5px rgba(0, 0, 0, 0.089),
-        0px 2.1px 10.9px rgba(0, 0, 0, 0.138), 0px 7px 36px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 5.3px rgba(0, 0, 0, 0.028),
+        0px 0px 17.9px rgba(0, 0, 0, 0.042), 0px 0px 80px rgba(0, 0, 0, 0.07);
 }
 
 /* BUTTON2 */

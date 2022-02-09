@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "Source Sans Pro", sans-serif;
 }
 
 :root {
@@ -33,7 +36,7 @@
 
 @media only screen and (min-width: 992px) {
     body {
-        font-size: 14px;
+        font-size: 15px;
     }
     // NAVBAR
     .navbar-expand-lg {
@@ -55,7 +58,12 @@
             width: 0px;
             height: 3px;
             margin-top: 22px;
-            background: var(--yellow);
+            background: rgb(62, 110, 13);
+            background: linear-gradient(
+                142deg,
+                rgba(62, 110, 13, 1) 35%,
+                rgba(32, 167, 20, 1) 93%
+            );
             transition: 0.4s;
             -webkit-transition: 0.4s;
             -moz-transition: 0.4s;
@@ -99,7 +107,7 @@
 // MOBILE X PHONE
 @media only screen and (max-width: 992px) {
     body {
-        font-size: 12px;
+        font-size: 13px;
     }
     .navbar {
         .navbar-toggler:focus,
@@ -108,6 +116,15 @@
             outline: none;
             box-shadow: none;
             border: none;
+        }
+        .dropdown.show {
+            display: block;
+            height: 100px;
+            .nav-link {
+                margin-left: 20px;
+                margin-bottom: -20px;
+                text-justify: center;
+            }
         }
     }
     .header-inner {
