@@ -1,6 +1,8 @@
 import React from "react";
 import "./Content.scss";
 import icon1 from "../../img/icon/1.png";
+import icon2 from "../../img/icon/2.png";
+import icon3 from "../../img/icon/3.png";
 
 const Content = () => {
     const ListChose = [
@@ -10,12 +12,12 @@ const Content = () => {
             text: "adfhakhf",
         },
         {
-            icon: [],
+            icon: [icon2],
             title: "Non Pestisida",
             text: "asdj",
         },
         {
-            icon: [],
+            icon: [icon3],
             title: "Kualitas Pelayanan",
             text: "asdj",
         },

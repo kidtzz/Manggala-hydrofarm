@@ -23,7 +23,7 @@ const Testimoni = () => {
         },
     };
     return (
-        <div className="container ">
+        <div className="Testimoni container ">
             <Carousel
                 swipeable={false}
                 draggable={false}
@@ -42,11 +42,13 @@ const Testimoni = () => {
                 {ListTestimoni.map((isi, index) => {
                     return (
                         <div className="card px-0 m-2 p-3 " key={index}>
-                            <img
+                            {/* <img
                                 src={isi.img}
-                                className=" w-100 img-fluid"
+                                className=" img-fluid"
+                                width="120"
+                                height="100"
                                 alt="..."
-                            />
+                            /> */}
                             <div className="card-body">
                                 <h5 className="card-title fw-bold">
                                     {isi.title}
