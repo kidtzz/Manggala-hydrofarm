@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.scss";
-import { MenuItems } from "./MenuItems";
+import { MenuItems, ListMenu } from "./MenuItems";
 import logo from "../../img/logo.png";
 import { button1 } from "../Button/Button";
 
@@ -35,7 +35,7 @@ const Navbar = () => {
                         class="collapse navbar-collapse justify-content-end text-center"
                         id="navbarNav"
                     >
-                        {MenuItems.map((item, index) => {
+                        {/* {MenuItems.map((item, index) => {
                             return (
                                 <ul className="navbar-nav align-items-center">
                                     <li key={index} className={item.cliName}>
@@ -48,8 +48,21 @@ const Navbar = () => {
                                     </li>
                                 </ul>
                             );
-                        })}
-                        <li class="nav-item fw-bold header-button">
+                        })} */}
+                        <ul className="navbar-nav align-items-center">
+                            {ListMenu.map((menu, index) => {
+                                const depthLevel = 0;
+                                return (
+                                    <MenuItems
+                                        items={menu}
+                                        key={index}
+                                        depthLevel={depthLevel}
+                                    />
+                                );
+                            })}
+                        </ul>
+
+                        <li class="nav-item fw-bold header-button px-4">
                             <a class="" href=" ">
                                 {button1()}
                             </a>
