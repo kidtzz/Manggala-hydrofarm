@@ -62,7 +62,7 @@ const Navbar = () => {
                             })}
                         </ul>
 
-                        <li class="nav-item fw-bold header-button px-4">
+                        <li class="nav-item fw-bold header-button my-2 px-4">
                             <a class="" href=" ">
                                 {button1()}
                             </a>
