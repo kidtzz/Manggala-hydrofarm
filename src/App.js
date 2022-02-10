@@ -6,6 +6,7 @@ import ContentTB from "./component/ContenTB/ContentTB";
 import Content from "./component/Content/Content";
 import Testimoni from "./component/Testimoni/Testimoni";
 import Footer from "./component/Footer/Footer";
+import Product from "./component/Product/Product";
 
 function App() {
     return (
@@ -13,10 +14,11 @@ function App() {
             <Navbar />
             <ContentTB />
             <Content />
+            <Product />
             <Testimoni />
+            <Content />
 
-            <div className="bg-content2"></div>
-
+            {/* <div className="bg-content2"></div> */}
             <Footer />
         </div>
     );

@@ -25,13 +25,17 @@ const Content = () => {
     return (
         <section className="choose-US  bg-content2">
             <div className="container-fluid py-5 text-center">
-                <h2 className="mb-5">Kenapa Memilih Manggala Hydrofarm?</h2>
+                <h2 className="mb-2 fw-bold" data-aos="zoom-in-up">
+                    Kenapa Memilih Manggala Hydrofarm?
+                </h2>
+                <span className="section-separator"></span>
                 <div className=" row d-flex justify-content-center">
                     {ListChose.map((choose, index) => {
                         return (
                             <div
                                 className="card px-0 m-2 mx-3 p-3  "
                                 key={choose}
+                                data-aos="zoom-in-right"
                             >
                                 <img
                                     src={choose.icon}

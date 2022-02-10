@@ -10,6 +10,7 @@ const ContentTB = () => {
         AOS.init({
             duration: 1000,
         });
+
         AOS.refresh();
     }, []);
     return (
@@ -45,7 +46,7 @@ const ContentTB = () => {
                                     data-aos="fade-up-right"
                                 >
                                     <a href=" " className="readme">
-                                        {" "}
+                                      
                                         Read More
                                     </a>
                                 </div>
