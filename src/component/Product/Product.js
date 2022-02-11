@@ -20,19 +20,21 @@ const Product = () => {
                     ></img>
                 </div>
                 <div
-                    className="col-lg-5 col-md-5 lg-xl-5 col-lg-0 m-auto"
+                    className=" col-lg-5 col-md-5 lg-xl-5 col-lg-0 m-auto"
                     data-aos="fade-down"
                     data-aos-easing="linear"
                     data-aos-duration="1100"
                 >
-                    <h5 className="fw-bold">Selada Bohemia</h5>
-                    <p className="">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Quasi ipsam distinctio corrupti cumque nobis
-                        doloremque natus veritatis consequatur, sit, ut incidunt
-                        quos quibusdam. Eos mollitia, ipsum veniam explicabo
-                        iure vero?
-                    </p>
+                    <div className="container">
+                        <h5 className="fw-bold">Selada Bohemia</h5>
+                        <p className="">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Quasi ipsam distinctio corrupti cumque nobis
+                            doloremque natus veritatis consequatur, sit, ut
+                            incidunt quos quibusdam. Eos mollitia, ipsum veniam
+                            explicabo iure vero?
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>

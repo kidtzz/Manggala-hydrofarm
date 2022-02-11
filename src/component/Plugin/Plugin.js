@@ -9,10 +9,10 @@ export const WA = () => {
             <WhatsAppWidget
                 phoneNo="+6288980396377"
                 position="right"
-                autoOpen={true}
-                autoOpenTimer={5000}
+                autoOpen={false}
+                autoOpenTimer={3000}
                 messageBox={true}
-                messageBoxTxt="Hi"
+                messageBoxTxt="Hi "
                 iconSize="50"
                 iconColor="white"
                 iconBgColor="green"
