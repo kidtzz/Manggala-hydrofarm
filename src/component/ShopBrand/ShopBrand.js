@@ -1,28 +1,45 @@
 import React from "react";
 import "./ShopBrand.scss";
-import img1 from "../../img/logo.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import img0 from "../../img/logo.png";
+import img1 from "../../img/logo/logo1.png";
+import img2 from "../../img/logo/logo2.png";
+import img3 from "../../img/logo/logo3.png";
+import img4 from "../../img/logo/logo4.png";
+import img5 from "../../img/logo/logo5.png";
 
 const ShopBrand = () => {
     const ListBrand = [
         {
-            title: "Manggala hydrofarm",
+            title: "Manggala hydrasdofarm",
+            brandimg: [img0],
+        },
+        {
+            title: "Mangasdagala hydrofarm",
             brandimg: [img1],
         },
         {
-            title: "Manggala hydrofarm",
-            brandimg: [img1],
+            title: "Manggala hydasdaarofarm",
+            brandimg: [img2],
         },
         {
             title: "Manggala hydrofarm",
-            brandimg: [img1],
+            brandimg: [img3],
+        },
+        {
+            title: "Manggala hydasdarofarm",
+            brandimg: [img4],
+        },
+        {
+            title: "Manggala hydasdarofarm",
+            brandimg: [img5],
         },
     ];
     const responsive = {
         desktop: {
             breakpoint: { max: 3000, min: 1024 },
-            items: 3,
+            items: 5,
             slidesToSlide: 3, // optional, default to 1.
         },
         tablet: {
@@ -40,17 +57,22 @@ const ShopBrand = () => {
     return (
         <div className="ShopBrand container-fluid p-5 text-center">
             <h2 className=" fw-bold">Shop Brand</h2>
-            <span className="section-separator"></span>
-            <div className="">
-                <div className="brand-shop ">
+            <div className="container mb-5">
+                <span className="section-separator"></span>
+                <p className="head-separator">
+                    {" "}
+                    We are with several other hydroponic partners
+                </p>
+            </div>
+            <div className="container-fluid justify-content-center">
+                <div className="brand-shop m-5 mx-0">
                     <Carousel
                         swipeable={false}
                         draggable={false}
-                        showDots={true}
                         responsive={responsive}
                         ssr={true} // means to render carousel on server-side.
                         infinite={true}
-                        autoPlaySpeed={1000}
+                        autoPlaySpeed={1700}
                         keyBoardControl={true}
                         customTransition="all .5"
                         transitionDuration={500}
@@ -58,21 +80,18 @@ const ShopBrand = () => {
                         removeArrowOnDeviceType={["tablet", "mobile"]}
                         dotListClass="custom-dot-list-style"
                         itemClass="carousel-item-padding-40-px"
+                        className=" "
                     >
                         {ListBrand.map((item, index) => {
                             return (
                                 <div key={index}>
-                                    <div className="img-fluid px-2 ">
+                                    <div className="img-fluid px-2 align-items-center rounded-circle ">
                                         <img
+                                            className="  "
                                             src={item.brandimg}
-                                            height="50"
-                                            width="120"
                                             alt=""
                                         />
                                     </div>
-                                    <h5 className="text-uppercase">
-                                        {item.title}
-                                    </h5>
                                 </div>
                             );
                         })}

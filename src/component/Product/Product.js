@@ -1,5 +1,5 @@
 import React from "react";
-import imgP from "../../img/product1.png";
+import imgP from "../../img/product/product1.png";
 import "./Product.scss";
 
 const Product = () => {

@@ -1,5 +1,21 @@
-// .ShopBrand {
-//     .brand-shop {
-//         display: flex;
-//     }
-// }
+.ShopBrand {
+    .head-separator {
+        color: #7d93b2;
+        font-size: 13px;
+        line-height: 20px;
+        max-width: 550px;
+        margin: 0 auto;
+    }
+    .img-fluid {
+        display: flex;
+        justify-content: center;
+        width: 140px;
+        height: 140px;
+
+        img {
+            max-width: 100% !important;
+            height: auto;
+            display: block;
+        }
+    }
+}
