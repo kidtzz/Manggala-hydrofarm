@@ -1,8 +1,7 @@
 .Testimonial {
-    float: left;
     position: relative;
     background: transparent;
-    z-index: 5;
+    z-index: 2;
     width: 100%;
     height: auto;
 
@@ -39,7 +38,7 @@
         height: 50px;
         line-height: 50px;
         margin-top: -25px;
-        z-index: 100;
+        z-index: 9999999999999;
         cursor: pointer;
         background: rgb(62, 110, 13);
         background: linear-gradient(
@@ -182,7 +181,6 @@
         transform: scale(1);
     }
     .tc-pagination {
-        float: left;
         margin-top: 10px;
         width: 100% !important;
     }

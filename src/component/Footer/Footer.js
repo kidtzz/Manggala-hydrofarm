@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="container-fluid px-5 my-5 ">
                 <div className="row gx-5 justify-content-center">
                     <div className="col-lg-4 col-md-4 col-xl-4 mb-5 mb-lg-0">
-                        <h6 className=" mb-4 font-weight-bold">About us</h6>
+                        <h6 className=" mb-4 fw-bold">About us</h6>
                         <p className="text-secondary">
                             Lorem ipsum dolor sit amet consectetur adipisicing
                             elit. Aliquam voluptatibus fugit sit temporibus
@@ -17,7 +17,7 @@ const Footer = () => {
                         </p>
                     </div>
                     <div className="col-lg-3 col-md-3 col-xl-3  mb-5 mb-lg-0">
-                        <h6 className=" mb-4 font-weight-bold">Contact</h6>
+                        <h6 className=" mb-4 fw-bold">Contact</h6>
                         <div className="footer-link d-block text-secondary ">
                             <p>
                                 {" "}
@@ -38,16 +38,14 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="col-lg-2 col-md-2 col-xl-2  mb-5 mb-lg-0">
-                        <h6 className="  mb-4 font-weight-bold">
-                            Learn & Support
-                        </h6>
+                        <h6 className="  mb-4 fw-bold">Learn & Support</h6>
                         <div className="text-secondary">
                             <li>lorem</li>
                             <li>lorem</li>
                         </div>
                     </div>
                     <div className="col-lg-2 col-md-2 col-xl-2  mb-5 mb-lg-0">
-                        <h6 className=" mb-4 font-weight-bold">Follow Us</h6>
+                        <h6 className=" mb-4 fw-bold">Follow Us</h6>
                         <a
                             class="btn btn-primary btn-floating m-1"
                             href="#!"

@@ -13,7 +13,7 @@ export const WA = () => {
                 autoOpenTimer={3000}
                 messageBox={true}
                 messageBoxTxt="Hi "
-                iconSize="50"
+                iconSize="53"
                 iconColor="white"
                 iconBgColor="green"
                 headerIcon={pp}

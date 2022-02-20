@@ -8,17 +8,13 @@ export const ListMenu = [
         url: "#",
     },
     {
-        title: "About ",
-        url: "#",
-    },
-    {
-        title: "Services",
+        title: "Articles",
         submenu: [
             {
-                title: "web design",
+                title: "Hydroponics",
             },
             {
-                title: "SEO",
+                title: "FeedCharts",
             },
         ],
     },
@@ -26,15 +22,15 @@ export const ListMenu = [
         title: "Product",
         submenu: [
             {
-                title: "Who we are",
+                title: "Vegetables",
             },
             {
-                title: "Our values",
+                title: "Equipment",
             },
         ],
     },
     {
-        title: "Contact ",
+        title: "About ",
         url: "#",
     },
 ];
