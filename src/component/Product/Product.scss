@@ -1,11 +1,17 @@
 .Product {
     .card {
         background: #fafafa;
+        border: none;
+        box-shadow: 0.1px 0.1px 2.3px rgba(0, 0, 0, 0.016),
+            0.4px 0.4px 7.8px rgba(0, 0, 0, 0.024),
+            2px 2px 35px rgba(0, 0, 0, 0.04);
+
         border-radius: 12px;
         -webkit-border-radius: 12px;
         -moz-border-radius: 12px;
         -ms-border-radius: 12px;
         -o-border-radius: 12px;
+
         .product-img {
             max-width: 100% !important;
             height: auto;

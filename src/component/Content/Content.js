@@ -23,8 +23,8 @@ const Content = () => {
         },
     ];
     return (
-        <section className="choose-US  bg-content2">
-            <div className="container-fluid py-5 text-center">
+        <section className="choose-US ">
+            <div className="container-fluid py-2 text-center">
                 <h2 className="mb-2 fw-bold" data-aos="zoom-in-up">
                     Kenapa Memilih Manggala Hydrofarm?
                 </h2>
@@ -33,7 +33,7 @@ const Content = () => {
                     {ListChose.map((choose, index) => {
                         return (
                             <div
-                                className="card px-0 m-2 mx-3 p-3  "
+                                className="card px-0 m-2 mx-3 p-3 col-lg-4 col-md-4 lg-xl-4 col-lg-0 m-auto  "
                                 key={choose}
                                 data-aos="zoom-in-right"
                             >
