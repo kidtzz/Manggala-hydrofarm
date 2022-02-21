@@ -44,7 +44,7 @@ const ShopBrand = () => {
         },
         tablet: {
             breakpoint: { max: 1024, min: 464 },
-            items: 2,
+            items: 4,
             slidesToSlide: 2, // optional, default to 1.
         },
         mobile: {
@@ -72,15 +72,20 @@ const ShopBrand = () => {
                         responsive={responsive}
                         ssr={true} // means to render carousel on server-side.
                         infinite={true}
+                        autoPlay={true}
                         autoPlaySpeed={1700}
                         keyBoardControl={true}
                         customTransition="all .5"
                         transitionDuration={500}
                         containerClass="carousel-container"
-                        removeArrowOnDeviceType={["tablet", "mobile"]}
+                        removeArrowOnDeviceType={[
+                            "tablet",
+                            "mobile",
+                            "desktop",
+                        ]}
                         dotListClass="custom-dot-list-style"
                         itemClass="carousel-item-padding-40-px"
-                        className=" "
+                        className=" Carousel"
                     >
                         {ListBrand.map((item, index) => {
                             return (
@@ -97,7 +102,7 @@ const ShopBrand = () => {
                         })}
                     </Carousel>
                 </div>
-                <p className="">
+                <p className="text-body">
                     Find all of the best hydroponics and indoor gardening brands
                     at HTG Supply! We carry all of the industry’s top name
                     brands from grow lights and hydroponic systems to nutrients,

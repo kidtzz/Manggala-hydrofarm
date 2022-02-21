@@ -52,15 +52,13 @@
 }
 
 .main_div button {
-    padding: 10px 20px;
+    padding: 7px 20px;
     border-radius: 10px;
-    background: rgb(27, 107, 15);
+    background: rgb(38, 155, 19);
     background: linear-gradient(
-        90deg,
-        rgba(27, 107, 15, 0.9724264705882353) 22%,
-        rgba(77, 135, 15, 1) 56%,
-        rgba(114, 155, 16, 1) 83%,
-        rgba(144, 193, 27, 1) 99%
+        142deg,
+        rgba(38, 155, 19, 1) 39%,
+        rgba(32, 167, 20, 1) 81%
     );
     color: #fff;
     border: none;
@@ -71,22 +69,16 @@
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
-.main_div button:hover {
-    box-shadow: 0px 0px 5.3px rgba(0, 0, 0, 0.028),
-        0px 0px 17.9px rgba(0, 0, 0, 0.042), 0px 0px 80px rgba(0, 0, 0, 0.07);
-}
 
 /* BUTTON2 */
 
 /* From cssbuttons.io */
 .fancy {
-    background: rgb(27, 107, 15);
+    background: rgb(38, 155, 19);
     background: linear-gradient(
-        90deg,
-        rgba(27, 107, 15, 0.9724264705882353) 22%,
-        rgba(77, 135, 15, 1) 56%,
-        rgba(114, 155, 16, 1) 83%,
-        rgba(144, 193, 27, 1) 99%
+        142deg,
+        rgba(38, 155, 19, 1) 39%,
+        rgba(32, 167, 20, 1) 81%
     );
     border: 2px solid #fff;
     border-radius: 0;
@@ -193,4 +185,54 @@
 }
 .fancy:hover .bottom-key-2 {
     width: 0.625rem;
+}
+
+/* From cssbuttons.io by @NorthFishHasNa */
+.button4 {
+    display: inline-block;
+    border-radius: 200px;
+    background: rgb(38, 155, 19);
+    background: linear-gradient(
+        142deg,
+        rgba(38, 155, 19, 1) 39%,
+        rgba(32, 167, 20, 1) 81%
+    );
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 17px;
+    padding: 5px;
+    width: 70px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    -ms-border-radius: 200px;
+    -o-border-radius: 200px;
+}
+
+.button4 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button4 span:after {
+    content: "»";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -15px;
+    transition: 0.5s;
+}
+
+.button4:hover span {
+    padding-right: 15px;
+}
+
+.button4:hover span:after {
+    opacity: 1;
+    right: 0;
 }

@@ -14,7 +14,7 @@ export const button2 = () => {
         <div>
             <a className="fancy " href=" ">
                 <span className="top-key"></span>
-                <span className="text">buy now</span>
+                <span className="text">Shop now</span>
                 <span className="bottom-key-1"></span>
                 <span className="bottom-key-2"></span>
             </a>
@@ -31,6 +31,16 @@ export const button3 = () => {
                 <span className="bottom-key-1"></span>
                 <span className="bottom-key-2"></span>
             </a>
+        </div>
+    );
+};
+
+export const button4 = () => {
+    return (
+        <div>
+            <button className="button4 fw-bold">
+                <span>Buy</span>
+            </button>
         </div>
     );
 };

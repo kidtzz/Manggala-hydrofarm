@@ -1,3 +1,16 @@
-// div{
-//     color: #d8d6d6;
-// }
+.Product {
+    .card {
+        background: #fafafa;
+        border: none;
+        border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        -o-border-radius: 12px;
+        img {
+            max-width: 100% !important;
+            height: auto;
+            display: block;
+        }
+    }
+}
