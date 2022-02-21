@@ -45,10 +45,10 @@ const Product = () => {
                                                 <hr></hr>
                                                 <div>
                                                     <div className="d-flex justify-content-between">
+                                                        <span>Harga</span>
                                                         <span>
-                                                            Pro Display XDR
+                                                            {item.harga}
                                                         </span>
-                                                        <span>{item.gram}</span>
                                                     </div>
                                                 </div>
                                                 <div className="d-flex justify-content-between total font-weight-bold mt-2">
