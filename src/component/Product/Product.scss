@@ -1,16 +1,31 @@
 .Product {
     .card {
         background: #fafafa;
-        border: none;
         border-radius: 12px;
         -webkit-border-radius: 12px;
         -moz-border-radius: 12px;
         -ms-border-radius: 12px;
         -o-border-radius: 12px;
-        img {
+        .product-img {
             max-width: 100% !important;
             height: auto;
             display: block;
+            cursor: pointer;
+        }
+        .product-img img {
+            height: 140px;
+            transition: transform 0.5s;
+            -webkit-transition: transform 0.5s;
+            -moz-transition: transform 0.5s;
+            -ms-transition: transform 0.5s;
+            -o-transition: transform 0.5s;
+        }
+        .product-img img:hover {
+            transform: scale(1.3);
+            -webkit-transform: scale(1.3);
+            -moz-transform: scale(1.3);
+            -ms-transform: scale(1.3);
+            -o-transform: scale(1.3);
         }
     }
 }

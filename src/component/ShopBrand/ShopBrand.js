@@ -102,7 +102,7 @@ const ShopBrand = () => {
                         })}
                     </Carousel>
                 </div>
-                <p className="text-body">
+                <p className="text-body text-muted">
                     Find all of the best hydroponics and indoor gardening brands
                     at HTG Supply! We carry all of the industry’s top name
                     brands from grow lights and hydroponic systems to nutrients,

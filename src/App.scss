@@ -178,4 +178,11 @@
             text-align: justify !important;
         }
     }
+    .Product {
+        .card {
+            .product-img img {
+                height: 190px;
+            }
+        }
+    }
 }

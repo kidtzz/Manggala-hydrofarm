@@ -21,8 +21,8 @@ const Product = () => {
                                         className=" text-black col-lg-4 col-md-4 lg-xl-4 col-lg-0 m-auto "
                                         key={index}
                                     >
-                                        <div className="card mb-4">
-                                            <i className="fa-lg pt-3 pb-1 px-3">
+                                        <div className="card mb-4 ">
+                                            <i className="fa-lg pt-3 px-3 ">
                                                 <img
                                                     className="img-fluid "
                                                     width={60}
@@ -31,12 +31,14 @@ const Product = () => {
                                                     alt="logo-product"
                                                 />
                                             </i>
-                                            <img
-                                                src={item.img}
-                                                className="card-img-top img-fluid"
-                                                alt="product"
-                                            />
-                                            <div className="card-body ">
+                                            <div className="product-img justify-content-center row ">
+                                                <img
+                                                    src={item.img}
+                                                    className="img-fluid center-block px-5 my-2"
+                                                    alt="product"
+                                                />
+                                            </div>
+                                            <div className="card-body">
                                                 <div className="text-center">
                                                     <h5 className="card-title mb-4">
                                                         {item.title}
@@ -44,8 +46,10 @@ const Product = () => {
                                                 </div>
                                                 <hr></hr>
                                                 <div>
-                                                    <div className="d-flex justify-content-between">
-                                                        <span>Harga</span>
+                                                    <div className="d-flex justify-content-between ">
+                                                        <span className="mx-3">
+                                                            Harga
+                                                        </span>
                                                         <span>
                                                             {item.harga}
                                                         </span>
@@ -64,35 +68,6 @@ const Product = () => {
                     </div>
                 </div>
             </section>
-
-            {/* <div className="row d-flex align-items-center">
-                <div className="col-lg-5 col-md-5 lg-xl-5 col-lg-0 m-auto">
-                    <img
-                        src={imgP}
-                        alt=""
-                        className="img-fluid"
-                        data-aos="fade-up"
-                        data-aos-duration="1100"
-                    ></img>
-                </div>
-                <div
-                    className=" col-lg-5 col-md-5 lg-xl-5 col-lg-0 m-auto"
-                    data-aos="fade-down"
-                    data-aos-easing="linear"
-                    data-aos-duration="1100"
-                >
-                    <div className="container">
-                        <h5 className="fw-bold">Selada Bohemia</h5>
-                        <p className="">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit. Quasi ipsam distinctio corrupti cumque nobis
-                            doloremque natus veritatis consequatur, sit, ut
-                            incidunt quos quibusdam. Eos mollitia, ipsum veniam
-                            explicabo iure vero?
-                        </p>
-                    </div>
-                </div>
-            </div> */}
         </div>
     );
 };
