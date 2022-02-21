@@ -29,6 +29,8 @@ const Product = () => {
                                                     height={50}
                                                     src={logo}
                                                     alt="logo-product"
+                                                    data-aos="fade-up"
+                                                    data-aos-duration="2000"
                                                 />
                                             </i>
                                             <div className="product-img justify-content-center row ">
@@ -36,6 +38,7 @@ const Product = () => {
                                                     src={item.img}
                                                     className="img-fluid center-block px-5 my-2"
                                                     alt="product"
+                                                    data-aos="flip-right"
                                                 />
                                             </div>
                                             <div className="card-body">
