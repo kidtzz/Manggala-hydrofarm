@@ -5,6 +5,26 @@
         font-size: 15px;
         text-align: justify;
     }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    a:hover {
+        text-decoration: none;
+        color: #729b10;
+        cursor: pointer;
+    }
+    ul {
+        display: block;
+        list-style: none;
+        margin: 0px 7px;
+        padding: 0px;
+        li {
+            display: block;
+            margin: 5px 0px;
+        }
+    }
+
     .btn-instagram {
         color: #fff;
         background-color: var(--ig);
