@@ -62,15 +62,20 @@
     padding: 0.7rem 1rem;
 }
 
-.arrow::after {
-    content: "";
-    display: inline-block;
-    margin-left: 0.28em;
-    vertical-align: 0.09em;
-    border-top: 0.42em solid;
-    border-right: 0.32em solid transparent;
-    border-left: 0.32em solid transparent;
-}
+// .arrow::after {
+//     color: black;
+//     content: "";
+//     display: inline-block;
+//     margin-left: 0.28em;
+//     vertical-align: 0.09em;
+//     border-top: 0.42em solid;
+//     border-right: 0.32em solid transparent;
+//     border-left: 0.32em solid transparent;
+// }
+
+// .arrow i{
+//     margin-top: 10px;
+// }
 
 // BACKGROUND DROPDOWN
 
