@@ -68,27 +68,27 @@ const Footer = () => {
                     </div>
                     <div className="col-lg-2 col-md-2 col-xl-2  mb-5 mb-lg-0">
                         <h6 className=" mb-4 fw-bold">Follow Us</h6>
-                        <a
+                        <div
                             class="btn btn-primary btn-floating m-1"
                             href="#!"
                             role="button"
                         >
                             <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a
+                        </div>
+                        <div
                             class="btn btn-instagram btn-floating m-1"
                             href="#!"
                             role="button"
                         >
                             <i class="fab fa-instagram"></i>
-                        </a>
-                        <a
+                        </div>
+                        <div
                             class="btn btn-web btn-floating text-white m-1"
                             href="#!"
                             role="button"
                         >
                             <i class="fas fa-globe"></i>
-                        </a>
+                        </div>
                     </div>
 
                     {/* Copyright */}

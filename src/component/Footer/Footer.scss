@@ -7,7 +7,7 @@
     }
     a {
         text-decoration: none;
-        color: black;
+        color: #6c757d;
     }
     a:hover {
         text-decoration: none;
@@ -24,7 +24,9 @@
             margin: 5px 0px;
         }
     }
-
+    .btn:hover {
+        cursor: pointer;
+    }
     .btn-instagram {
         color: #fff;
         background-color: var(--ig);
