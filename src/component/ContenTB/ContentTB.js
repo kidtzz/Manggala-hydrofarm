@@ -20,7 +20,7 @@ const ContentTB = () => {
                     <div className="col-lg-5 mb-5 mb-lg-0 col-md-5 col-xl-5 mx-auto">
                         <div className=" d-block">
                             <div className="info-bg">
-                                <h5>infomative</h5>
+                                <h5>informasi</h5>
                             </div>
                             <p
                                 className="display-6 "
@@ -46,7 +46,6 @@ const ContentTB = () => {
                                     data-aos="fade-up-right"
                                 >
                                     <a href=" " className="readme">
-                                      
                                         Read More
                                     </a>
                                 </div>
