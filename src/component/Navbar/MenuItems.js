@@ -82,12 +82,11 @@ export const MenuItems = ({ items, depthLevel }) => {
                         aria-expanded={dropdown ? "true" : "false"}
                         onClick={() => setDropdown((prev) => !prev)}
                     >
-                        {items.title}{" "}
+                        {items.title}
                         {depthLevel > 0 ? (
                             <span>&raquo;</span>
                         ) : (
                             <span className="arrow ">
-                                {" "}
                                 <i class="far fa-angle-down"></i>
                             </span>
                             // ADD CLASS
