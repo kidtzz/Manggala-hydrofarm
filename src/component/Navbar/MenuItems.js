@@ -86,7 +86,7 @@ export const MenuItems = ({ items, depthLevel }) => {
                         {depthLevel > 0 ? (
                             <span>&raquo;</span>
                         ) : (
-                            <span className="arrow ">
+                            <span className="arrow  ">
                                 <i class="far fa-angle-down"></i>
                             </span>
                             // ADD CLASS
