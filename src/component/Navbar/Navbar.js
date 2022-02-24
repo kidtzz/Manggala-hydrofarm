@@ -49,7 +49,7 @@ const Navbar = () => {
                                 </ul>
                             );
                         })} */}
-                        <ul className="navbar-nav align-items-center">
+                        <ul className="navbar-nav align-items-center ">
                             {ListMenu.map((menu, index) => {
                                 const depthLevel = 0;
                                 return (
