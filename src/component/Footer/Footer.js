@@ -3,11 +3,11 @@ import "./Footer.scss";
 
 const Footer = () => {
     return (
-        <section className="py-5 pb-0 footer bg-grey">
+        <section className="py-2 footer bg-grey">
             <div className="container-fluid px-5 my-5 ">
                 <div className="row gx-5 justify-content-center">
                     <div className="col-lg-4 col-md-4 col-xl-4 mb-5 mb-lg-0">
-                        <h6 className=" mb-4 fw-bold">About us</h6>
+                        <h5 className=" mb-3 ">About us</h5>
                         <p className="text-secondary">
                             <a href=" ">
                                 Lorem ipsum dolor sit amet consectetur
@@ -20,8 +20,8 @@ const Footer = () => {
                         </p>
                     </div>
                     <div className="col-lg-3 col-md-3 col-xl-3  mb-5 mb-lg-0">
-                        <h6 className=" mb-4 fw-bold">Contact</h6>
-                        <div className="footer-link d-block text-secondary d-flex ">
+                        <h5 className=" mb-3 px-2">Contact</h5>
+                        <div className="footer-link text-secondary ">
                             <ul className="text-center ">
                                 <li>
                                     {" "}
@@ -35,7 +35,7 @@ const Footer = () => {
                                     <i class="fas fa-map-marker-alt"> </i>
                                 </li>
                             </ul>
-                            <ul className="">
+                            <ul>
                                 <li>
                                     <a href=" "> +62 8222 9617 7554 </a>
                                 </li>
@@ -44,59 +44,54 @@ const Footer = () => {
                                 </li>
                                 <li>
                                     <a href=" ">
-                                        {"   "}
-                                        Manggal RT 17, RW 06, Simo, Simo,
-                                        Boyolali, Jawa tengah, Indonesia
+                                        Manggal RT 17, RW 06, Simo, Boyolali,
+                                        Jawa tengah, Indonesia
                                     </a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div className="col-lg-2 col-md-2 col-xl-2  mb-5 mb-lg-0">
-                        <h6 className="  mb-4 fw-bold">Learn & Support</h6>
+                        <h5 className="  mb-3 px-2 ">Learn & Support</h5>
                         <div className="text-secondary">
                             <ul>
                                 <li>
-                                    <a href=" ">Lorem</a>{" "}
+                                    <a href=" ">Conditions of Use</a>
                                 </li>
                                 <li>
-                                    {" "}
-                                    <a href=" ">Lorem </a>{" "}
+                                    <a href=" ">Privacy Notice</a>
+                                </li>
+                                <li>
+                                    <a href=" ">About Cookies</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div className="col-lg-2 col-md-2 col-xl-2  mb-5 mb-lg-0">
-                        <h6 className=" mb-4 fw-bold">Follow Us</h6>
-                        <div
-                            class="btn btn-primary btn-floating m-1"
-                            href="#!"
-                            role="button"
-                        >
-                            <i class="fab fa-facebook-f"></i>
+                        <h5 className=" mb-3 px-2">Follow Us</h5>
+
+                        <div class="btn" href="#!" role="button">
+                            <a href=" ">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
                         </div>
-                        <div
-                            class="btn btn-instagram btn-floating m-1"
-                            href="#!"
-                            role="button"
-                        >
-                            <i class="fab fa-instagram"></i>
+                        <div class="btn  " href="#!" role="button">
+                            <a href=" ">
+                                <i class="fab fa-instagram"></i>
+                            </a>
                         </div>
-                        <div
-                            class="btn btn-web btn-floating text-white m-1"
-                            href="#!"
-                            role="button"
-                        >
-                            <i class="fas fa-globe"></i>
+                        <div class="btn " href="#!" role="button">
+                            <a href=" ">
+                                <i class="fas fa-globe"></i>
+                            </a>
                         </div>
                     </div>
 
                     {/* Copyright */}
                 </div>
             </div>
-            <div class="text-center pb-0 copyright text-secondary ">
-                © 2022 Manggala Hydrofarm. All rights reserved
-                <div className="border-footer "></div>
+            <div class="container text-center copyright text-secondary  ">
+                <hr /> <br /> © 2022 Manggala Hydrofarm. All rights reserved
             </div>
         </section>
     );

@@ -16,12 +16,12 @@
 }
 
 .navbar-scroll {
-    background-color: hsla(0, 0%, 100%, 0.95);
+    background-color: hsl(0, 0%, 100%);
     padding: 0;
     position: fixed;
     top: 0;
     z-index: 99;
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 3px 25px rgba(0, 0, 0, 0.041);
     transition-duration: 0.4s;
     .nav-item .nav-link {
         color: #666666;

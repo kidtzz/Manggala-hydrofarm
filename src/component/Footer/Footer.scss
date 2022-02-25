@@ -1,8 +1,8 @@
 /* * FOOTER */
 
 .footer {
+    font-size: 14px;
     p {
-        font-size: 15px;
         text-align: justify;
     }
     a {
@@ -15,51 +15,26 @@
         cursor: pointer;
     }
     ul {
-        display: block;
         list-style: none;
         margin: 0px 7px;
         padding: 0px;
         li {
-            display: block;
             margin: 5px 0px;
         }
     }
-    .btn:hover {
+    .footer-link {
+        display: flex;
+    }
+    .btn i {
+        font-size: 30px;
         cursor: pointer;
     }
-    .btn-instagram {
-        color: #fff;
-        background-color: var(--ig);
-        border-color: var(--ig);
-    }
-    .btn-instagram:hover {
-        color: #fff;
-        background-color: #8f248f;
-    }
-    .btn-web {
-        color: #fff;
-        background-color: var(--web);
-        border-color: var(--web);
-    }
-    .btn-web:hover {
-        color: white;
-        background-color: #ac4133;
+    .btn i:hover {
+        cursor: pointer;
     }
     .copyright {
+        padding: 15px 0px;
         font-size: 13px;
         text-decoration: none;
-        .border-footer {
-            width: 100%;
-            margin-top: 20px;
-            height: 5px;
-            background: rgb(27, 107, 15);
-            background: linear-gradient(
-                90deg,
-                rgba(27, 107, 15, 0.9724264705882353) 22%,
-                rgba(77, 135, 15, 1) 56%,
-                rgba(114, 155, 16, 1) 83%,
-                rgba(144, 193, 27, 1) 99%
-            );
-        }
     }
 }
