@@ -1,9 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Laila&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap");
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "Laila", sans-serif;
+    font-family: "Nunito Sans", sans-serif;
 }
 
 :root {
@@ -75,15 +76,16 @@
 
         .nav-link {
             margin-bottom: -20px;
+            color: #666666;
         }
 
         .nav-link::after {
             content: "";
             display: block;
             width: 0px;
-            height: 3px;
-            margin-top: 20px;
-            background: rgb(62, 110, 13);
+            height: 2px;
+            margin-top: 21px;
+            background: #3e6e0d;
             background: linear-gradient(
                 142deg,
                 rgba(62, 110, 13, 1) 35%,

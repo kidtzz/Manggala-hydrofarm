@@ -8,15 +8,8 @@ export const ListMenu = [
         url: "#",
     },
     {
-        title: "Articles",
-        submenu: [
-            {
-                title: "Hydroponics",
-            },
-            {
-                title: "FeedCharts",
-            },
-        ],
+        title: "About",
+        url: "#",
     },
     {
         title: "Product",
@@ -30,7 +23,11 @@ export const ListMenu = [
         ],
     },
     {
-        title: "About ",
+        title: "Contact",
+        url: "#",
+    },
+    {
+        title: "Articles ",
         url: "#",
     },
 ];
@@ -86,9 +83,7 @@ export const MenuItems = ({ items, depthLevel }) => {
                         {depthLevel > 0 ? (
                             <span>&raquo;</span>
                         ) : (
-                            <span className="arrow  ">
-                                <i class="far fa-angle-down"></i>
-                            </span>
+                            <span className="arrow  "></span>
                             // ADD CLASS
                         )}
                     </button>
