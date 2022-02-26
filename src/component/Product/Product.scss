@@ -1,8 +1,15 @@
+@media only screen and (min-widht: 992px) {
+    .Product {
+        .section-product-title {
+            display: flex !important;
+        }
+    }
+}
+
 .Product {
     .card {
         background: #fafafa;
         border: none;
-
         border-radius: 12px;
         -webkit-border-radius: 12px;
         -moz-border-radius: 12px;

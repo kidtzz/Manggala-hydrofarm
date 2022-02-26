@@ -13,7 +13,16 @@ const Product = () => {
             </div>
             <section>
                 <div className="container py-5">
-                    <div className="row justify-content-center">
+                    <div className="section-product-title d-flex justify-content-between mb-3">
+                        <h5 className="fw-bold text-left ">Popular Nowadays</h5>
+                        <div className="section-category d-flex">
+                            <h6 className=" px-2 ">All </h6>
+                            <h6 className=" text-muted px-2 ">Selada </h6>
+                            <h6 className=" text-muted px-2 ">Parkcoy </h6>
+                            <h6 className=" text-muted px-2 ">Melon </h6>
+                        </div>
+                    </div>
+                    <div className=" justify-content-center">
                         <div className="row">
                             {ListProduct.map((item, index) => {
                                 return (
