@@ -4,8 +4,8 @@ import "./Footer.scss";
 const Footer = () => {
     return (
         <section className="py-2 footer bg-grey">
-            <div className="container px-0 my-5 ">
-                <div className="row justify-content-start ">
+            <div className="container my-5 ">
+                <div className="row justify-content-center ">
                     <div className="col-lg-3 col-md-3 col-xl-3  mb-3 mb-lg-0 ">
                         <h5 className=" mb-2 px-2">Contact</h5>
                         <div className="footer-link text-secondary lh-lg">
@@ -65,7 +65,7 @@ const Footer = () => {
                                 <i class="fab fa-instagram"></i>
                             </a>
                         </div>
-                        <div class="btn " href="#!" role="button">
+                        <div class="btn  " href="#!" role="button">
                             <a href=" ">
                                 <i class="fas fa-globe"></i>
                             </a>

@@ -8,11 +8,11 @@
     a {
         text-decoration: none;
         color: #6c757d;
+        cursor: pointer;
     }
     a:hover {
         text-decoration: none;
         color: #729b10;
-        cursor: pointer;
     }
     ul {
         list-style: none;
@@ -26,11 +26,11 @@
     .footer-link {
         display: flex;
     }
-    .btn i {
+    .btn a {
         font-size: 30px;
         cursor: pointer;
     }
-    .btn i:hover {
+    .btn a:hover {
         cursor: pointer;
     }
     .copyright {
