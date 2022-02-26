@@ -5,10 +5,10 @@ const Footer = () => {
     return (
         <section className="py-2 footer bg-grey">
             <div className="container px-0 my-5 ">
-                <div className="row justify-content-center ">
-                    <div className="col-lg-4 col-md-4 col-xl-4  mb-5 mb-lg-0 ">
-                        <h5 className=" mb-3 px-2">Contact</h5>
-                        <div className="footer-link text-secondary ">
+                <div className="row justify-content-start ">
+                    <div className="col-lg-3 col-md-3 col-xl-3  mb-3 mb-lg-0 ">
+                        <h5 className=" mb-2 px-2">Contact</h5>
+                        <div className="footer-link text-secondary lh-lg">
                             <ul>
                                 <li>
                                     <a href=" "> +62 889-8039-6377 </a>
@@ -19,9 +19,9 @@ const Footer = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-3 col-xl-3 mb-5 mb-lg-0 ">
-                        <h5 className=" mb-3 px-2">About us</h5>
-                        <ul className="text-secondary">
+                    <div className="col-lg-2 col-md-2 col-xl-2 mb-3 mb-lg-0 ">
+                        <h5 className=" mb-2 px-2">About us</h5>
+                        <ul className="text-secondary lh-lg">
                             <li>
                                 <a href=" ">Our Values</a>
                             </li>
@@ -36,9 +36,9 @@ const Footer = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className="col-lg-3 col-md-3 col-xl-3  mb-5 mb-lg-0 ">
-                        <h5 className="  mb-3 px-2 ">Learn & Support</h5>
-                        <div className="text-secondary">
+                    <div className="col-lg-2 col-md-2 col-xl-2  mb-3 mb-lg-0 ">
+                        <h5 className=" mb-2 px-2 ">Learn & Support</h5>
+                        <div className="text-secondary lh-lg">
                             <ul>
                                 <li>
                                     <a href=" ">Conditions of Use</a>
@@ -52,8 +52,8 @@ const Footer = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="col-lg-2 col-md-2 col-xl-2  mb-5 mb-lg-0 ">
-                        <h5 className=" mb-3 px-2">Follow Us</h5>
+                    <div className="col-lg-2 col-md-2 col-xl-2  mb-3 mb-lg-0 ">
+                        <h5 className=" mb-2 px-2">Follow Us</h5>
 
                         <div class="btn" href="#!" role="button">
                             <a href=" ">
